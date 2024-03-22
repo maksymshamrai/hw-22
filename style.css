@@ -1,11 +1,13 @@
 .header {
     background-color: blue;
     color: white;
-    margin: 10px;position: fixed;
+    margin: 10px;
+    position: fixed;
+    width: 1920px;
 }
 .square {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 .square1 {
     background-color: yellow;
@@ -16,12 +18,18 @@
 .square2 {
     background-color: red;
     position: absolute;
-    top: 200px;
-    left: 200px;
+    top: 500px;
+    left: 500px;
 }
 .square3 {
     background-color: green;
     position: absolute;
-    top: 200px;
-    left: 200px;
+    top: 350px;
+    left: 350px;
+}
+.square4 {
+    background-color: green;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
 }
